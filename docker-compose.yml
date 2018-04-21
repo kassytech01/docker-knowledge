@@ -6,7 +6,7 @@ services:
         volumes:
             - ./volumes/knowledge:/root/.knowledge
         ports:
-            - "8080:8080"
+            - "8082:8080"
         restart: always
         depends_on:
             - "db"
